@@ -3,7 +3,7 @@ package ru.embedika.cardirectory.configuration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import ru.embedika.cardirectory.Utils.CarUtils;
+import ru.embedika.cardirectory.utils.CarUtils;
 import ru.embedika.cardirectory.repository.CarRepository;
 
 import java.time.ZonedDateTime;

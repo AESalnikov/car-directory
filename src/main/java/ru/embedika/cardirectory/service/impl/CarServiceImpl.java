@@ -2,7 +2,7 @@ package ru.embedika.cardirectory.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.embedika.cardirectory.Utils.CarUtils;
+import ru.embedika.cardirectory.utils.CarUtils;
 import ru.embedika.cardirectory.pojo.Stats;
 import ru.embedika.cardirectory.pojo.entity.Car;
 import ru.embedika.cardirectory.pojo.model.CarModel;
@@ -14,8 +14,8 @@ import ru.embedika.cardirectory.service.CarService;
 
 import java.util.List;
 
-import static ru.embedika.cardirectory.Utils.CarUtils.convertCarListToCarModelList;
-import static ru.embedika.cardirectory.Utils.CarUtils.convertCarModelToCar;
+import static ru.embedika.cardirectory.utils.CarUtils.convertCarListToCarModelList;
+import static ru.embedika.cardirectory.utils.CarUtils.convertCarModelToCar;
 
 @Service
 public class CarServiceImpl implements CarService {

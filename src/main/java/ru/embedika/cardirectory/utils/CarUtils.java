@@ -1,4 +1,4 @@
-package ru.embedika.cardirectory.Utils;
+package ru.embedika.cardirectory.utils;
 
 import lombok.experimental.UtilityClass;
 import ru.embedika.cardirectory.pojo.entity.Car;
